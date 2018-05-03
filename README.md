@@ -9,8 +9,14 @@ file `/dns.php`
 
 just [Google DNS](https://dns.google.com/) Mirror 
 
+parameter should base64 encode and urlencode
+and base64 decode the response
+
+name=urlencode(base64encode("img.alicdn.com")) 
+edns_client_subnet=urlencode(base64encode("123.125.18.108"))
+
 **Demo**   
-`https://prudent-travels.000webhostapp.com/dns.php?name=img.alicdn.com&edns_client_subnet=123.125.18.108`
+`https://prudent-travels.000webhostapp.com/dns.php?name=&edns_client_subnet=`
 
 ---
 
