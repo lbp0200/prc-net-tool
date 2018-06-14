@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SERVER['HTTP_PWD']) && $_SERVER['HTTP_PWD'] === '123') {
     file_put_contents('../tmp/tmp.pac', file_get_contents('php://input'));
-    echo file_get_contents('../tmp/tmp.pac');
-    exit();
+//    echo file_get_contents('../tmp/tmp.pac');
+    exit('ok');
 }
 if ((!isset($_GET['a']) || empty($_GET['a'])) || (!isset($_GET['b']) || empty($_GET['b']))) {
     http_response_code(400);
