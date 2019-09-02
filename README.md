@@ -34,3 +34,7 @@ use proxy to foreign site and Direct to PRC site.
 generate a pac file which use `SOCKS5 192.168.1.1` proxy, copy and parse to [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) 
 
 ---
+
+Online Proxy
+---
+https://prudent-travels.000webhostapp.com/php-proxy/
